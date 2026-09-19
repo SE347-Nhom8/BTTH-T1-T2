@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <title>Định dạng văn bản</title>
+
+    <style>
+        body {
+            font-family: "Times New Roman", serif;
+        }
+
+        .container {
+            width: 665px;
+            margin: 80px auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #01CD00;
+            font-size: 32px;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .title {
+            font-weight: bold;
+            text-decoration: underline;
+        }
+
+        .italic {
+            font-style: italic;
+        }
+
+        .red {
+            color: red;
+        }
+
+        pre {
+            background-color: #cccccc;
+            color: blue;
+            padding: 15px 65px;
+            font-family: monospace;
+            font-size: 16px;
+            line-height: 32px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Định dạng văn bản</h1>
+
+        <p>
+            <span class="title">Hóa học:</span>
+            <span class="italic">Nước:</span>
+            <span class="red">H<sub>2</sub>O</span>;
+            <span class="italic">Axit Sunfuric:</span>
+            <span class="red">H<sub>2</sub>SO<sub>4</sub></span>
+        </p>
+
+        <p>
+            <span class="title">Toán học:</span>
+            <span class="italic">Phương trình bậc 2:</span>
+            <span class="red">
+                ax<sup>2</sup> + bx + c = 0
+            </span>
+        </p>
+
+        <p>
+            <span class="title">Tin học:</span>
+            <span class="italic">Vòng lặp for:</span>
+        </p>
+
+        <pre><code>int tong = 0;
+for(int i = 1; i &lt;= 10; i++)
+    tong += i;
+printf("Tong cac so tu 1 =&gt; 10 la: %d\n",tong); </code></pre>
+    </div>
+</body>
+</html>
