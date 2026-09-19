@@ -11,12 +11,15 @@ https://drive.google.com/drive/folders/1rAg3OcSm-qcVjCRD5AcIx3pPGCa7wvEE?usp=dri
 ```text
 MSSV-HoTenSV-Web1/
 │
-├── index.html
 ├── bai1.html
 ├── bai2.html
 ├── bai3.html
 ├── bai4.html
 │
 └── images/
+│   ├── ...
+│   └── ...
+│
+└── fonts/
     ├── ...
     └── ...
